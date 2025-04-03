@@ -21,7 +21,7 @@
           Я заинтересован в практике, умею работать в команде, обладаю навыками планирования и организации работы.
         </p>
         <button type="button" class="mt-5 text-cyan-700 hover:text-white border-2 border-cyan-700 hover:bg-cyan-800 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-cyan-500 dark:text-cyan-500 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-800 scale-120 ease active:scale-95">
-        <a href="https://t.me/ProstoZahizr" target="_blank" class="text-cyan-400 hover:underline text-lg font-semibold">
+        <a href="https://t.me/ProstoZahizr" target="_blank" class="hover:underline text-lg font-semibold">
           Связаться со мной
         </a>
         </button>
