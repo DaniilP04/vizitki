@@ -5,7 +5,7 @@
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <p class="flex items-center space-x-3 rtl:space-x-reverse">
           <img :src="theme === 'light' ? '/img/logo_black.png' : '/img/logo_white.png'" class="h-8" alt="Student Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap">Визитка</span>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap"><NuxtLink to="/" class="">Визитка</NuxtLink></span>
         </p>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
@@ -52,7 +52,9 @@
 
  
     <main class="pt-15 flex min-h-screen transition-colors">
+      <Transition name="page" mode="out-in"> 
       <slot />
+      </Transition>
     </main>
 
  
@@ -80,6 +82,7 @@
   </div>
 </template>
 
+
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 
@@ -100,6 +103,7 @@ onMounted(() => {
     document.documentElement.classList.toggle('dark', savedTheme === 'dark');
   }
 });
+
 
 const isMenuOpen = ref(false);
 
