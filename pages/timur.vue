@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col md:flex-row items-center justify-center min-h-screen p-6">
       <Head>
-        <title>Тимур</title>
+        <title>Студенты СКУ</title>
       </Head>
       <div class="md:w-1/3 flex justify-center">
         <img src="/img/timur.JPG" alt="Timur" class="mt-16 mb-4 rounded-lg shadow-lg max-w-xs md:max-w-sm object-cover w-full" />
