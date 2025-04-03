@@ -9,14 +9,18 @@
         </p>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
-          <button @click="toggleTheme"
-            class="font-medium rounded-lg text-sm px-4 py-2 text-center"
-            :class="theme === 'light' ? 'bg-gray-100 border-2 border-zinc-800' : 'bg-zinc-800 border-2 border-gray-100' ">
-            {{ theme === 'light' ? '☀️' : '☀️' }}
-          </button>
+        <button @click="toggleTheme"
+                class="font-medium rounded-lg text-sm px-4 py-2 text-center flex items-center justify-center ease-out transform hover:scale-110 transition duration-500"
+                :class="theme === 'light' ? 'bg-gray-100 border-2 border-zinc-800' : 'bg-zinc-800 border-2 border-gray-100'">
+          <NuxtImg :src="theme === 'light' ? '/img/moon.png' : '/img/sun.png'" 
+                  :alt="theme === 'light' ? 'Moon icon' : 'Sun icon'"
+                  class="w-5 h-5" />
+        </button>
   
+
+
           <button @click="toggleMenu"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-zinc-800 focus:outline-none focus:ring-2 focus:ring-zinc-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-white">
              <span class="sr-only">Open main menu</span>
            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -47,7 +51,7 @@
     </nav>
 
  
-    <main class="pt-20 p-5 flex min-h-screen transition-colors">
+    <main class="pt-15 flex min-h-screen transition-colors">
       <slot />
     </main>
 
