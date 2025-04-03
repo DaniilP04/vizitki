@@ -9,7 +9,7 @@
       <div class="md:w-2/3 md:pl-10 text-center md:text-left">
         <h1 class="text-4xl font-bold mb-6 mt-8">Даниил</h1>
         <p class="text-lg  mb-4">
-          Привет! Я Даниил — студент 2 курса направления IT, начинающий web разработчик,Разрабатываю удобные и эстетичные интерфейсы, используя Nuxt.js и Tailwind CSS.
+          Привет! Я Даниил — студент 2 курса направления IT, начинающий web разработчик. Разрабатываю удобные и эстетичные интерфейсы, используя Nuxt.js и Tailwind CSS.
         </p>
         <p class="text-lg  mb-4">
           Имею знания в Tailwind, TS, Nuxt, Python, PostgreSQL, Microsoft Excel.
