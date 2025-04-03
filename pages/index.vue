@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-20 pb-10 min-h-screen flex flex-col justify-center items-center ">
+    <div class="pt-20 pb-10 min-h-screen flex flex-col justify-center items-center overflow-hidden">
         <Head>
             <title>Студенты СКУ</title>
         </Head>
@@ -14,7 +14,7 @@
             </div>
             </div>
             <div class="w-full md:w-1/3 order-1 md:order-none mb-10">
-                <img src="/img/dev.png" alt="Awesome picture" class="w-full h-auto scale-125">
+                <img src="/img/dev.png" alt="Awesome picture" class="w-full object-cover h-auto scale-125">
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
         <title>Даниил</title>
       </Head>
       <div class="md:w-1/3 flex justify-center">
-        <img src="/img/daniil.jpg" alt="Daniil" class="mt-16 mb-4 rounded-lg shadow-lg max-w-xs md:max-w-sm" />
+        <img src="/img/daniil.jpg" alt="Daniil" class="mt-16 mb-4 rounded-lg shadow-lg max-w-xs md:max-w-sm object-cover w-full" />
       </div>
       <div class="md:w-2/3 md:pl-10 text-center md:text-left">
         <h1 class="text-4xl font-bold mb-6">Даниил</h1>

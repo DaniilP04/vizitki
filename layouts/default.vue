@@ -51,7 +51,7 @@
     </nav>
 
  
-    <main class="pt-15 flex min-h-screen transition-colors">
+    <main class="pt-15 flex min-h-screen transition-colors ">
       <Transition name="page" mode="out-in"> 
       <slot />
       </Transition>
